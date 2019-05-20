@@ -11,8 +11,8 @@ class Card extends React.Component {
                 <div className={"w-full rounded " + this.props.color}>
                     <div className="card-header"></div>
                     <div className="card-body">
-                        <h1 className="py-4 px-4 text-4xl text-white">{this.props.title}</h1>
-                        <h4 className="pb-8 px-4 text-2xl text-white">{this.props.content}</h4>
+                        <h1 className="py-4 px-5 text-4xl text-white">{this.props.title}</h1>
+                        <h4 className="pb-8 px-5 text-xl text-white">{this.props.content}</h4>
                     </div>
                     <div className="card-footer p-2 rounded-b bg-black opacity-25 clearfix">
                         <a href={this.props.link} className="float-right py-1 text-white font-bold">{this.props.linkName}</a>
