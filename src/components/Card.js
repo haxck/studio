@@ -8,7 +8,7 @@ class Card extends React.Component {
     render() {
         return (
             <div className="p-4 border-box w-full md:w-1/3">
-                <div className={"w-full rounded " + this.props.color}>
+                <div className={"w-full rounded " + (this.props.color || "bg-blue-400")}>
                     <div className="card-header"></div>
                     <div className="card-body">
                         <h1 className="py-4 px-5 text-4xl text-white">{this.props.title}</h1>
